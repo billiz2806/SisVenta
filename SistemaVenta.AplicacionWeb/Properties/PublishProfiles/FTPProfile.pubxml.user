@@ -1,0 +1,1253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAT4k+/+82/kqDA3Kj5W7diQAAAAACAAAAAAAQZgAAAAEAACAAAAAywJ+fOUYIt4QmqQd36JnpowKIGskNsilss7mD3XaBfAAAAAAOgAAAAAIAACAAAABVYSCdL9XFk5iGaKcq8XvTGVxrTc59oXwBb1o0EpsEyyAAAABuqZ6/QQC+ryV8jJMo8uTaYrqZbM41+ygSKrciohupe0AAAAArDMxQL/AOF43pd1mmwOS5cGumNCp1xpWVQupZ4Nrxpu+fK/cZHagLMGqBNQBhCSaJLAkRHsMVrmGL4nLniStb</EncryptedPassword>
+    <_PublishTargetUrl>ftp://198.37.116.29/www.billyportafolio1.somee.com</_PublishTargetUrl>
+    <History>False|2022-12-20T20:20:13.7756801Z;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="CadenaSQL">
+      <Value>Data Source = BILLY-DBVENTA.mssql.somee.com%3b Initial Catalog = BILLY-DBVENTA%3b user id=Billiz_SQLLogin_1%3bpwd=5uhqqvdo4z%3bTrust Server Certificate=true</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <File Include="appsettings.Development.json">
+      <publishTime>11/17/2022 09:41:04</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>12/20/2022 12:28:45</publishTime>
+    </File>
+    <File Include="appsettings.production.json">
+      <publishTime>12/20/2022 15:03:04</publishTime>
+    </File>
+    <File Include="AutoMapper.dll">
+      <publishTime>09/30/2022 04:45:38</publishTime>
+    </File>
+    <File Include="AutoMapper.Extensions.Microsoft.DependencyInjection.dll">
+      <publishTime>09/30/2022 05:07:30</publishTime>
+    </File>
+    <File Include="Azure.Core.dll">
+      <publishTime>04/04/2022 16:38:56</publishTime>
+    </File>
+    <File Include="Azure.Identity.dll">
+      <publishTime>04/05/2022 15:26:00</publishTime>
+    </File>
+    <File Include="cs/Microsoft.CodeAnalysis.CSharp.Features.resources.dll">
+      <publishTime>10/14/2021 13:43:18</publishTime>
+    </File>
+    <File Include="cs/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>10/14/2021 13:42:34</publishTime>
+    </File>
+    <File Include="cs/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll">
+      <publishTime>10/14/2021 13:42:40</publishTime>
+    </File>
+    <File Include="cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+      <publishTime>10/14/2021 13:42:40</publishTime>
+    </File>
+    <File Include="cs/Microsoft.CodeAnalysis.Features.resources.dll">
+      <publishTime>10/14/2021 13:42:54</publishTime>
+    </File>
+    <File Include="cs/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>10/14/2021 13:30:42</publishTime>
+    </File>
+    <File Include="cs/Microsoft.CodeAnalysis.Scripting.resources.dll">
+      <publishTime>10/14/2021 13:38:10</publishTime>
+    </File>
+    <File Include="cs/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll">
+      <publishTime>10/14/2021 13:43:20</publishTime>
+    </File>
+    <File Include="cs/Microsoft.CodeAnalysis.VisualBasic.resources.dll">
+      <publishTime>10/14/2021 13:38:34</publishTime>
+    </File>
+    <File Include="cs/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll">
+      <publishTime>10/14/2021 13:38:40</publishTime>
+    </File>
+    <File Include="cs/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll">
+      <publishTime>10/14/2021 13:38:36</publishTime>
+    </File>
+    <File Include="cs/Microsoft.CodeAnalysis.Workspaces.resources.dll">
+      <publishTime>10/14/2021 13:38:18</publishTime>
+    </File>
+    <File Include="de/Microsoft.CodeAnalysis.CSharp.Features.resources.dll">
+      <publishTime>10/14/2021 13:43:18</publishTime>
+    </File>
+    <File Include="de/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>10/14/2021 13:42:34</publishTime>
+    </File>
+    <File Include="de/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll">
+      <publishTime>10/14/2021 13:42:40</publishTime>
+    </File>
+    <File Include="de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+      <publishTime>10/14/2021 13:42:40</publishTime>
+    </File>
+    <File Include="de/Microsoft.CodeAnalysis.Features.resources.dll">
+      <publishTime>10/14/2021 13:42:54</publishTime>
+    </File>
+    <File Include="de/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>10/14/2021 13:30:42</publishTime>
+    </File>
+    <File Include="de/Microsoft.CodeAnalysis.Scripting.resources.dll">
+      <publishTime>10/14/2021 13:38:10</publishTime>
+    </File>
+    <File Include="de/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll">
+      <publishTime>10/14/2021 13:43:20</publishTime>
+    </File>
+    <File Include="de/Microsoft.CodeAnalysis.VisualBasic.resources.dll">
+      <publishTime>10/14/2021 13:38:34</publishTime>
+    </File>
+    <File Include="de/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll">
+      <publishTime>10/14/2021 13:38:40</publishTime>
+    </File>
+    <File Include="de/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll">
+      <publishTime>10/14/2021 13:38:36</publishTime>
+    </File>
+    <File Include="de/Microsoft.CodeAnalysis.Workspaces.resources.dll">
+      <publishTime>10/14/2021 13:38:18</publishTime>
+    </File>
+    <File Include="DinkToPdf.dll">
+      <publishTime>04/18/2017 14:16:24</publishTime>
+    </File>
+    <File Include="dotnet-aspnet-codegenerator-design.dll">
+      <publishTime>09/21/2022 16:02:44</publishTime>
+    </File>
+    <File Include="es/Microsoft.CodeAnalysis.CSharp.Features.resources.dll">
+      <publishTime>10/14/2021 13:43:18</publishTime>
+    </File>
+    <File Include="es/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>10/14/2021 13:42:34</publishTime>
+    </File>
+    <File Include="es/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll">
+      <publishTime>10/14/2021 13:42:40</publishTime>
+    </File>
+    <File Include="es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+      <publishTime>10/14/2021 13:42:40</publishTime>
+    </File>
+    <File Include="es/Microsoft.CodeAnalysis.Features.resources.dll">
+      <publishTime>10/14/2021 13:42:54</publishTime>
+    </File>
+    <File Include="es/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>10/14/2021 13:30:42</publishTime>
+    </File>
+    <File Include="es/Microsoft.CodeAnalysis.Scripting.resources.dll">
+      <publishTime>10/14/2021 13:38:10</publishTime>
+    </File>
+    <File Include="es/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll">
+      <publishTime>10/14/2021 13:43:20</publishTime>
+    </File>
+    <File Include="es/Microsoft.CodeAnalysis.VisualBasic.resources.dll">
+      <publishTime>10/14/2021 13:38:34</publishTime>
+    </File>
+    <File Include="es/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll">
+      <publishTime>10/14/2021 13:38:40</publishTime>
+    </File>
+    <File Include="es/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll">
+      <publishTime>10/14/2021 13:38:36</publishTime>
+    </File>
+    <File Include="es/Microsoft.CodeAnalysis.Workspaces.resources.dll">
+      <publishTime>10/14/2021 13:38:18</publishTime>
+    </File>
+    <File Include="Firebase.Auth.dll">
+      <publishTime>08/05/2021 01:45:32</publishTime>
+    </File>
+    <File Include="Firebase.Storage.dll">
+      <publishTime>11/26/2018 16:49:32</publishTime>
+    </File>
+    <File Include="fr/Microsoft.CodeAnalysis.CSharp.Features.resources.dll">
+      <publishTime>10/14/2021 13:43:18</publishTime>
+    </File>
+    <File Include="fr/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>10/14/2021 13:42:34</publishTime>
+    </File>
+    <File Include="fr/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll">
+      <publishTime>10/14/2021 13:42:40</publishTime>
+    </File>
+    <File Include="fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+      <publishTime>10/14/2021 13:42:40</publishTime>
+    </File>
+    <File Include="fr/Microsoft.CodeAnalysis.Features.resources.dll">
+      <publishTime>10/14/2021 13:42:54</publishTime>
+    </File>
+    <File Include="fr/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>10/14/2021 13:30:42</publishTime>
+    </File>
+    <File Include="fr/Microsoft.CodeAnalysis.Scripting.resources.dll">
+      <publishTime>10/14/2021 13:38:10</publishTime>
+    </File>
+    <File Include="fr/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll">
+      <publishTime>10/14/2021 13:43:20</publishTime>
+    </File>
+    <File Include="fr/Microsoft.CodeAnalysis.VisualBasic.resources.dll">
+      <publishTime>10/14/2021 13:38:34</publishTime>
+    </File>
+    <File Include="fr/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll">
+      <publishTime>10/14/2021 13:38:40</publishTime>
+    </File>
+    <File Include="fr/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll">
+      <publishTime>10/14/2021 13:38:36</publishTime>
+    </File>
+    <File Include="fr/Microsoft.CodeAnalysis.Workspaces.resources.dll">
+      <publishTime>10/14/2021 13:38:18</publishTime>
+    </File>
+    <File Include="Humanizer.dll">
+      <publishTime>05/04/2017 18:33:58</publishTime>
+    </File>
+    <File Include="it/Microsoft.CodeAnalysis.CSharp.Features.resources.dll">
+      <publishTime>10/14/2021 13:43:18</publishTime>
+    </File>
+    <File Include="it/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>10/14/2021 13:42:34</publishTime>
+    </File>
+    <File Include="it/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll">
+      <publishTime>10/14/2021 13:42:40</publishTime>
+    </File>
+    <File Include="it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+      <publishTime>10/14/2021 13:42:40</publishTime>
+    </File>
+    <File Include="it/Microsoft.CodeAnalysis.Features.resources.dll">
+      <publishTime>10/14/2021 13:42:54</publishTime>
+    </File>
+    <File Include="it/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>10/14/2021 13:30:42</publishTime>
+    </File>
+    <File Include="it/Microsoft.CodeAnalysis.Scripting.resources.dll">
+      <publishTime>10/14/2021 13:38:10</publishTime>
+    </File>
+    <File Include="it/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll">
+      <publishTime>10/14/2021 13:43:20</publishTime>
+    </File>
+    <File Include="it/Microsoft.CodeAnalysis.VisualBasic.resources.dll">
+      <publishTime>10/14/2021 13:38:34</publishTime>
+    </File>
+    <File Include="it/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll">
+      <publishTime>10/14/2021 13:38:40</publishTime>
+    </File>
+    <File Include="it/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll">
+      <publishTime>10/14/2021 13:38:36</publishTime>
+    </File>
+    <File Include="it/Microsoft.CodeAnalysis.Workspaces.resources.dll">
+      <publishTime>10/14/2021 13:38:18</publishTime>
+    </File>
+    <File Include="ja/Microsoft.CodeAnalysis.CSharp.Features.resources.dll">
+      <publishTime>10/14/2021 13:43:18</publishTime>
+    </File>
+    <File Include="ja/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>10/14/2021 13:42:34</publishTime>
+    </File>
+    <File Include="ja/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll">
+      <publishTime>10/14/2021 13:42:40</publishTime>
+    </File>
+    <File Include="ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+      <publishTime>10/14/2021 13:42:40</publishTime>
+    </File>
+    <File Include="ja/Microsoft.CodeAnalysis.Features.resources.dll">
+      <publishTime>10/14/2021 13:42:54</publishTime>
+    </File>
+    <File Include="ja/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>10/14/2021 13:30:42</publishTime>
+    </File>
+    <File Include="ja/Microsoft.CodeAnalysis.Scripting.resources.dll">
+      <publishTime>10/14/2021 13:38:10</publishTime>
+    </File>
+    <File Include="ja/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll">
+      <publishTime>10/14/2021 13:43:20</publishTime>
+    </File>
+    <File Include="ja/Microsoft.CodeAnalysis.VisualBasic.resources.dll">
+      <publishTime>10/14/2021 13:38:34</publishTime>
+    </File>
+    <File Include="ja/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll">
+      <publishTime>10/14/2021 13:38:40</publishTime>
+    </File>
+    <File Include="ja/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll">
+      <publishTime>10/14/2021 13:38:38</publishTime>
+    </File>
+    <File Include="ja/Microsoft.CodeAnalysis.Workspaces.resources.dll">
+      <publishTime>10/14/2021 13:38:18</publishTime>
+    </File>
+    <File Include="ko/Microsoft.CodeAnalysis.CSharp.Features.resources.dll">
+      <publishTime>10/14/2021 13:43:18</publishTime>
+    </File>
+    <File Include="ko/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>10/14/2021 13:42:34</publishTime>
+    </File>
+    <File Include="ko/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll">
+      <publishTime>10/14/2021 13:42:40</publishTime>
+    </File>
+    <File Include="ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+      <publishTime>10/14/2021 13:42:40</publishTime>
+    </File>
+    <File Include="ko/Microsoft.CodeAnalysis.Features.resources.dll">
+      <publishTime>10/14/2021 13:42:54</publishTime>
+    </File>
+    <File Include="ko/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>10/14/2021 13:30:42</publishTime>
+    </File>
+    <File Include="ko/Microsoft.CodeAnalysis.Scripting.resources.dll">
+      <publishTime>10/14/2021 13:38:10</publishTime>
+    </File>
+    <File Include="ko/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll">
+      <publishTime>10/14/2021 13:43:20</publishTime>
+    </File>
+    <File Include="ko/Microsoft.CodeAnalysis.VisualBasic.resources.dll">
+      <publishTime>10/14/2021 13:38:34</publishTime>
+    </File>
+    <File Include="ko/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll">
+      <publishTime>10/14/2021 13:38:40</publishTime>
+    </File>
+    <File Include="ko/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll">
+      <publishTime>10/14/2021 13:38:38</publishTime>
+    </File>
+    <File Include="ko/Microsoft.CodeAnalysis.Workspaces.resources.dll">
+      <publishTime>10/14/2021 13:38:18</publishTime>
+    </File>
+    <File Include="MessagePack.Annotations.dll">
+      <publishTime>07/01/2020 08:05:20</publishTime>
+    </File>
+    <File Include="MessagePack.dll">
+      <publishTime>07/01/2020 08:05:38</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Razor.Language.dll">
+      <publishTime>10/26/2021 16:51:08</publishTime>
+    </File>
+    <File Include="Microsoft.Bcl.AsyncInterfaces.dll">
+      <publishTime>10/19/2020 13:47:56</publishTime>
+    </File>
+    <File Include="Microsoft.Build.dll">
+      <publishTime>10/21/2021 09:27:56</publishTime>
+    </File>
+    <File Include="Microsoft.Build.Framework.dll">
+      <publishTime>10/21/2021 09:27:34</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.AnalyzerUtilities.dll">
+      <publishTime>06/05/2020 22:37:20</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>10/14/2021 13:42:34</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.CSharp.Features.dll">
+      <publishTime>10/14/2021 13:43:18</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>10/14/2021 13:42:38</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.CSharp.Workspaces.dll">
+      <publishTime>10/14/2021 13:42:40</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.dll">
+      <publishTime>10/14/2021 13:30:42</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.Features.dll">
+      <publishTime>10/14/2021 13:42:54</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.Razor.dll">
+      <publishTime>10/26/2021 16:51:14</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>10/14/2021 13:38:10</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>10/14/2021 13:38:34</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.VisualBasic.Features.dll">
+      <publishTime>10/14/2021 13:43:20</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll">
+      <publishTime>10/14/2021 13:38:40</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.Workspaces.dll">
+      <publishTime>10/14/2021 13:38:16</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.Workspaces.MSBuild.dll">
+      <publishTime>10/14/2021 13:38:36</publishTime>
+    </File>
+    <File Include="Microsoft.Data.SqlClient.dll">
+      <publishTime>10/07/2022 18:35:40</publishTime>
+    </File>
+    <File Include="Microsoft.DiaSymReader.dll">
+      <publishTime>06/11/2018 05:53:22</publishTime>
+    </File>
+    <File Include="Microsoft.DotNet.Scaffolding.Shared.dll">
+      <publishTime>09/21/2022 16:02:10</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.Abstractions.dll">
+      <publishTime>10/18/2022 21:07:56</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.dll">
+      <publishTime>10/18/2022 21:08:20</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.Relational.dll">
+      <publishTime>10/18/2022 21:08:34</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.SqlServer.dll">
+      <publishTime>10/18/2022 21:08:46</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Caching.Abstractions.dll">
+      <publishTime>10/18/2022 11:31:34</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Caching.Memory.dll">
+      <publishTime>10/18/2022 11:31:44</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Configuration.Abstractions.dll">
+      <publishTime>10/18/2022 11:19:14</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.DependencyInjection.Abstractions.dll">
+      <publishTime>10/18/2022 11:19:10</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.DependencyInjection.dll">
+      <publishTime>10/18/2022 11:19:34</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Logging.Abstractions.dll">
+      <publishTime>10/18/2022 11:19:52</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Logging.dll">
+      <publishTime>10/18/2022 11:20:18</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Options.dll">
+      <publishTime>10/18/2022 11:19:34</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Primitives.dll">
+      <publishTime>10/18/2022 11:19:10</publishTime>
+    </File>
+    <File Include="Microsoft.Identity.Client.dll">
+      <publishTime>06/22/2022 14:59:58</publishTime>
+    </File>
+    <File Include="Microsoft.Identity.Client.Extensions.Msal.dll">
+      <publishTime>11/19/2021 17:02:00</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Abstractions.dll">
+      <publishTime>07/01/2022 13:47:38</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.JsonWebTokens.dll">
+      <publishTime>07/01/2022 13:25:52</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Logging.dll">
+      <publishTime>07/01/2022 13:27:42</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Protocols.dll">
+      <publishTime>07/01/2022 13:29:14</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Protocols.OpenIdConnect.dll">
+      <publishTime>07/01/2022 13:39:00</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Tokens.dll">
+      <publishTime>07/01/2022 13:33:46</publishTime>
+    </File>
+    <File Include="Microsoft.NET.StringTools.dll">
+      <publishTime>05/13/2021 13:43:06</publishTime>
+    </File>
+    <File Include="Microsoft.SqlServer.Server.dll">
+      <publishTime>01/27/2022 12:19:08</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Debugger.Contracts.dll">
+      <publishTime>10/12/2021 17:56:42</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.Core.dll">
+      <publishTime>09/21/2022 16:02:18</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.dll">
+      <publishTime>09/21/2022 16:02:32</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll">
+      <publishTime>09/21/2022 16:02:22</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll">
+      <publishTime>09/21/2022 16:02:14</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll">
+      <publishTime>09/21/2022 16:02:12</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll">
+      <publishTime>09/21/2022 16:02:32</publishTime>
+    </File>
+    <File Include="Microsoft.Win32.SystemEvents.dll">
+      <publishTime>10/22/2021 18:40:24</publishTime>
+    </File>
+    <File Include="Newtonsoft.Json.dll">
+      <publishTime>03/17/2021 15:03:36</publishTime>
+    </File>
+    <File Include="NuGet.Common.dll">
+      <publishTime>05/12/2022 19:13:54</publishTime>
+    </File>
+    <File Include="NuGet.Configuration.dll">
+      <publishTime>05/12/2022 19:14:00</publishTime>
+    </File>
+    <File Include="NuGet.DependencyResolver.Core.dll">
+      <publishTime>06/01/2021 15:46:00</publishTime>
+    </File>
+    <File Include="NuGet.Frameworks.dll">
+      <publishTime>05/12/2022 19:14:04</publishTime>
+    </File>
+    <File Include="NuGet.LibraryModel.dll">
+      <publishTime>06/01/2021 15:46:38</publishTime>
+    </File>
+    <File Include="NuGet.Packaging.dll">
+      <publishTime>05/12/2022 19:16:28</publishTime>
+    </File>
+    <File Include="NuGet.ProjectModel.dll">
+      <publishTime>06/01/2021 15:48:08</publishTime>
+    </File>
+    <File Include="NuGet.Protocol.dll">
+      <publishTime>06/01/2021 15:48:36</publishTime>
+    </File>
+    <File Include="NuGet.Versioning.dll">
+      <publishTime>05/12/2022 19:16:12</publishTime>
+    </File>
+    <File Include="pl/Microsoft.CodeAnalysis.CSharp.Features.resources.dll">
+      <publishTime>10/14/2021 13:43:18</publishTime>
+    </File>
+    <File Include="pl/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>10/14/2021 13:42:34</publishTime>
+    </File>
+    <File Include="pl/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll">
+      <publishTime>10/14/2021 13:42:40</publishTime>
+    </File>
+    <File Include="pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+      <publishTime>10/14/2021 13:42:40</publishTime>
+    </File>
+    <File Include="pl/Microsoft.CodeAnalysis.Features.resources.dll">
+      <publishTime>10/14/2021 13:42:54</publishTime>
+    </File>
+    <File Include="pl/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>10/14/2021 13:30:42</publishTime>
+    </File>
+    <File Include="pl/Microsoft.CodeAnalysis.Scripting.resources.dll">
+      <publishTime>10/14/2021 13:38:10</publishTime>
+    </File>
+    <File Include="pl/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll">
+      <publishTime>10/14/2021 13:43:20</publishTime>
+    </File>
+    <File Include="pl/Microsoft.CodeAnalysis.VisualBasic.resources.dll">
+      <publishTime>10/14/2021 13:38:34</publishTime>
+    </File>
+    <File Include="pl/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll">
+      <publishTime>10/14/2021 13:38:40</publishTime>
+    </File>
+    <File Include="pl/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll">
+      <publishTime>10/14/2021 13:38:38</publishTime>
+    </File>
+    <File Include="pl/Microsoft.CodeAnalysis.Workspaces.resources.dll">
+      <publishTime>10/14/2021 13:38:18</publishTime>
+    </File>
+    <File Include="pt-BR/Microsoft.CodeAnalysis.CSharp.Features.resources.dll">
+      <publishTime>10/14/2021 13:43:18</publishTime>
+    </File>
+    <File Include="pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>10/14/2021 13:42:34</publishTime>
+    </File>
+    <File Include="pt-BR/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll">
+      <publishTime>10/14/2021 13:42:40</publishTime>
+    </File>
+    <File Include="pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+      <publishTime>10/14/2021 13:42:40</publishTime>
+    </File>
+    <File Include="pt-BR/Microsoft.CodeAnalysis.Features.resources.dll">
+      <publishTime>10/14/2021 13:42:54</publishTime>
+    </File>
+    <File Include="pt-BR/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>10/14/2021 13:30:42</publishTime>
+    </File>
+    <File Include="pt-BR/Microsoft.CodeAnalysis.Scripting.resources.dll">
+      <publishTime>10/14/2021 13:38:10</publishTime>
+    </File>
+    <File Include="pt-BR/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll">
+      <publishTime>10/14/2021 13:43:20</publishTime>
+    </File>
+    <File Include="pt-BR/Microsoft.CodeAnalysis.VisualBasic.resources.dll">
+      <publishTime>10/14/2021 13:38:34</publishTime>
+    </File>
+    <File Include="pt-BR/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll">
+      <publishTime>10/14/2021 13:38:40</publishTime>
+    </File>
+    <File Include="pt-BR/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll">
+      <publishTime>10/14/2021 13:38:38</publishTime>
+    </File>
+    <File Include="pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll">
+      <publishTime>10/14/2021 13:38:18</publishTime>
+    </File>
+    <File Include="ru/Microsoft.CodeAnalysis.CSharp.Features.resources.dll">
+      <publishTime>10/14/2021 13:43:18</publishTime>
+    </File>
+    <File Include="ru/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>10/14/2021 13:42:34</publishTime>
+    </File>
+    <File Include="ru/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll">
+      <publishTime>10/14/2021 13:42:40</publishTime>
+    </File>
+    <File Include="ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+      <publishTime>10/14/2021 13:42:40</publishTime>
+    </File>
+    <File Include="ru/Microsoft.CodeAnalysis.Features.resources.dll">
+      <publishTime>10/14/2021 13:42:54</publishTime>
+    </File>
+    <File Include="ru/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>10/14/2021 13:30:42</publishTime>
+    </File>
+    <File Include="ru/Microsoft.CodeAnalysis.Scripting.resources.dll">
+      <publishTime>10/14/2021 13:38:10</publishTime>
+    </File>
+    <File Include="ru/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll">
+      <publishTime>10/14/2021 13:43:20</publishTime>
+    </File>
+    <File Include="ru/Microsoft.CodeAnalysis.VisualBasic.resources.dll">
+      <publishTime>10/14/2021 13:38:34</publishTime>
+    </File>
+    <File Include="ru/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll">
+      <publishTime>10/14/2021 13:38:40</publishTime>
+    </File>
+    <File Include="ru/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll">
+      <publishTime>10/14/2021 13:38:38</publishTime>
+    </File>
+    <File Include="ru/Microsoft.CodeAnalysis.Workspaces.resources.dll">
+      <publishTime>10/14/2021 13:38:18</publishTime>
+    </File>
+    <File Include="runtimes/unix/lib/net6.0/System.Drawing.Common.dll">
+      <publishTime>10/22/2021 18:51:42</publishTime>
+    </File>
+    <File Include="runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll">
+      <publishTime>10/07/2022 18:35:40</publishTime>
+    </File>
+    <File Include="runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll">
+      <publishTime>10/03/2022 17:45:42</publishTime>
+    </File>
+    <File Include="runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll">
+      <publishTime>10/03/2022 17:45:32</publishTime>
+    </File>
+    <File Include="runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll">
+      <publishTime>10/03/2022 17:45:32</publishTime>
+    </File>
+    <File Include="runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll">
+      <publishTime>10/03/2022 17:45:32</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll">
+      <publishTime>10/22/2021 18:40:18</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/net6.0/System.Drawing.Common.dll">
+      <publishTime>10/22/2021 18:48:10</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll">
+      <publishTime>10/22/2021 18:51:04</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/net6.0/System.Windows.Extensions.dll">
+      <publishTime>10/22/2021 18:49:58</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll">
+      <publishTime>10/07/2022 18:35:52</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll">
+      <publishTime>10/19/2020 13:52:44</publishTime>
+    </File>
+    <File Include="SistemaVenta.AplicacionWeb.deps.json">
+      <publishTime>12/20/2022 15:02:54</publishTime>
+    </File>
+    <File Include="SistemaVenta.AplicacionWeb.dll">
+      <publishTime>12/20/2022 15:02:53</publishTime>
+    </File>
+    <File Include="SistemaVenta.AplicacionWeb.exe">
+      <publishTime>12/20/2022 15:02:53</publishTime>
+    </File>
+    <File Include="SistemaVenta.AplicacionWeb.pdb">
+      <publishTime>12/20/2022 15:02:53</publishTime>
+    </File>
+    <File Include="SistemaVenta.AplicacionWeb.runtimeconfig.json">
+      <publishTime>12/20/2022 12:49:07</publishTime>
+    </File>
+    <File Include="SistemaVenta.BLL.dll">
+      <publishTime>12/20/2022 12:49:00</publishTime>
+    </File>
+    <File Include="SistemaVenta.BLL.pdb">
+      <publishTime>12/20/2022 12:49:00</publishTime>
+    </File>
+    <File Include="SistemaVenta.DAL.dll">
+      <publishTime>12/20/2022 12:48:59</publishTime>
+    </File>
+    <File Include="SistemaVenta.DAL.pdb">
+      <publishTime>12/20/2022 12:48:59</publishTime>
+    </File>
+    <File Include="SistemaVenta.Entity.dll">
+      <publishTime>12/20/2022 12:48:58</publishTime>
+    </File>
+    <File Include="SistemaVenta.Entity.pdb">
+      <publishTime>12/20/2022 12:48:58</publishTime>
+    </File>
+    <File Include="SistemaVenta.IOC.dll">
+      <publishTime>12/20/2022 12:49:00</publishTime>
+    </File>
+    <File Include="SistemaVenta.IOC.pdb">
+      <publishTime>12/20/2022 12:49:00</publishTime>
+    </File>
+    <File Include="System.Composition.AttributedModel.dll">
+      <publishTime>11/04/2016 23:55:42</publishTime>
+    </File>
+    <File Include="System.Composition.Convention.dll">
+      <publishTime>11/04/2016 23:55:42</publishTime>
+    </File>
+    <File Include="System.Composition.Hosting.dll">
+      <publishTime>11/04/2016 23:55:42</publishTime>
+    </File>
+    <File Include="System.Composition.Runtime.dll">
+      <publishTime>11/04/2016 23:55:44</publishTime>
+    </File>
+    <File Include="System.Composition.TypedParts.dll">
+      <publishTime>11/04/2016 23:55:46</publishTime>
+    </File>
+    <File Include="System.Configuration.ConfigurationManager.dll">
+      <publishTime>10/22/2021 18:51:46</publishTime>
+    </File>
+    <File Include="System.Drawing.Common.dll">
+      <publishTime>10/22/2021 18:49:12</publishTime>
+    </File>
+    <File Include="System.IdentityModel.Tokens.Jwt.dll">
+      <publishTime>07/01/2022 13:23:04</publishTime>
+    </File>
+    <File Include="System.Memory.Data.dll">
+      <publishTime>04/08/2021 11:45:54</publishTime>
+    </File>
+    <File Include="System.Runtime.Caching.dll">
+      <publishTime>10/19/2020 13:52:34</publishTime>
+    </File>
+    <File Include="System.Security.Cryptography.ProtectedData.dll">
+      <publishTime>10/22/2021 18:51:04</publishTime>
+    </File>
+    <File Include="System.Security.Permissions.dll">
+      <publishTime>10/22/2021 18:49:50</publishTime>
+    </File>
+    <File Include="System.Windows.Extensions.dll">
+      <publishTime>10/22/2021 18:49:44</publishTime>
+    </File>
+    <File Include="tr/Microsoft.CodeAnalysis.CSharp.Features.resources.dll">
+      <publishTime>10/14/2021 13:43:18</publishTime>
+    </File>
+    <File Include="tr/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>10/14/2021 13:42:34</publishTime>
+    </File>
+    <File Include="tr/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll">
+      <publishTime>10/14/2021 13:42:40</publishTime>
+    </File>
+    <File Include="tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+      <publishTime>10/14/2021 13:42:40</publishTime>
+    </File>
+    <File Include="tr/Microsoft.CodeAnalysis.Features.resources.dll">
+      <publishTime>10/14/2021 13:42:54</publishTime>
+    </File>
+    <File Include="tr/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>10/14/2021 13:30:42</publishTime>
+    </File>
+    <File Include="tr/Microsoft.CodeAnalysis.Scripting.resources.dll">
+      <publishTime>10/14/2021 13:38:10</publishTime>
+    </File>
+    <File Include="tr/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll">
+      <publishTime>10/14/2021 13:43:20</publishTime>
+    </File>
+    <File Include="tr/Microsoft.CodeAnalysis.VisualBasic.resources.dll">
+      <publishTime>10/14/2021 13:38:34</publishTime>
+    </File>
+    <File Include="tr/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll">
+      <publishTime>10/14/2021 13:38:40</publishTime>
+    </File>
+    <File Include="tr/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll">
+      <publishTime>10/14/2021 13:38:38</publishTime>
+    </File>
+    <File Include="tr/Microsoft.CodeAnalysis.Workspaces.resources.dll">
+      <publishTime>10/14/2021 13:38:18</publishTime>
+    </File>
+    <File Include="Utilidades/LibreriaPDF/libwkhtmltox.dll">
+      <publishTime>08/19/2022 22:58:08</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>12/20/2022 15:03:04</publishTime>
+    </File>
+    <File Include="wwwroot/css/sb-admin-2.css">
+      <publishTime>12/20/2022 10:35:30</publishTime>
+    </File>
+    <File Include="wwwroot/css/sb-admin-2.min.css">
+      <publishTime>08/18/2022 19:27:54</publishTime>
+    </File>
+    <File Include="wwwroot/favicon.ico">
+      <publishTime>11/17/2022 09:41:04</publishTime>
+    </File>
+    <File Include="wwwroot/img/login-bg.png">
+      <publishTime>12/20/2022 10:34:01</publishTime>
+    </File>
+    <File Include="wwwroot/img/undraw_posting_photo.svg">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/undraw_profile.svg">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/undraw_profile_1.svg">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/undraw_profile_2.svg">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/undraw_profile_3.svg">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/undraw_rocket.svg">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/user.png">
+      <publishTime>12/19/2022 08:30:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/sb-admin-2.js">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/js/sb-admin-2.min.js">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/js/vistas/Categoria_Index.js">
+      <publishTime>12/19/2022 17:38:34</publishTime>
+    </File>
+    <File Include="wwwroot/js/vistas/chart-bar-demo.js">
+      <publishTime>08/21/2022 17:36:02</publishTime>
+    </File>
+    <File Include="wwwroot/js/vistas/chart-pie-demo.js">
+      <publishTime>08/21/2022 17:35:54</publishTime>
+    </File>
+    <File Include="wwwroot/js/vistas/DashBoard_Index.js">
+      <publishTime>12/19/2022 18:34:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/vistas/datatables-demo.js">
+      <publishTime>08/14/2022 16:59:38</publishTime>
+    </File>
+    <File Include="wwwroot/js/vistas/Historial_Venta.js">
+      <publishTime>12/19/2022 18:41:39</publishTime>
+    </File>
+    <File Include="wwwroot/js/vistas/Home_Perfil.js">
+      <publishTime>12/19/2022 09:04:13</publishTime>
+    </File>
+    <File Include="wwwroot/js/vistas/Negocio_Index.js">
+      <publishTime>12/17/2022 20:29:05</publishTime>
+    </File>
+    <File Include="wwwroot/js/vistas/Nueva_Venta.js">
+      <publishTime>12/07/2022 23:46:46</publishTime>
+    </File>
+    <File Include="wwwroot/js/vistas/Producto_Index.js">
+      <publishTime>12/19/2022 18:44:56</publishTime>
+    </File>
+    <File Include="wwwroot/js/vistas/Reporte_Index.js">
+      <publishTime>12/19/2022 17:21:37</publishTime>
+    </File>
+    <File Include="wwwroot/js/vistas/Usuario_Index.js">
+      <publishTime>12/19/2022 17:36:08</publishTime>
+    </File>
+    <File Include="wwwroot/scss/navs/_global.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/scss/navs/_sidebar.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/scss/navs/_topbar.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/scss/sb-admin-2.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/scss/utilities/_animation.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/scss/utilities/_background.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/scss/utilities/_border.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/scss/utilities/_display.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/scss/utilities/_progress.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/scss/utilities/_rotate.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/scss/utilities/_text.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/scss/_buttons.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/scss/_cards.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/scss/_charts.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/scss/_dropdowns.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/scss/_error.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/scss/_footer.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/scss/_global.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/scss/_login.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/scss/_mixins.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/scss/_navs.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/scss/_utilities.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/scss/_variables.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/SistemaVenta.AplicacionWeb.styles.css">
+      <publishTime>12/20/2022 12:49:04</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/js/bootstrap.bundle.js">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/js/bootstrap.bundle.js.map">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/js/bootstrap.bundle.min.js">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/js/bootstrap.bundle.min.js.map">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/js/bootstrap.js">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/js/bootstrap.js.map">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/js/bootstrap.min.js">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/js/bootstrap.min.js.map">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/bootstrap-grid.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/bootstrap-reboot.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/bootstrap.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/mixins/_alert.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/mixins/_background-variant.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/mixins/_badge.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/mixins/_border-radius.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/mixins/_box-shadow.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/mixins/_breakpoints.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/mixins/_buttons.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/mixins/_caret.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/mixins/_clearfix.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/mixins/_deprecate.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/mixins/_float.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/mixins/_forms.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/mixins/_gradients.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/mixins/_grid-framework.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/mixins/_grid.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/mixins/_hover.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/mixins/_image.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/mixins/_list-group.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/mixins/_lists.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/mixins/_nav-divider.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/mixins/_pagination.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/mixins/_reset-text.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/mixins/_resize.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/mixins/_screen-reader.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/mixins/_size.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/mixins/_table-row.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/mixins/_text-emphasis.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/mixins/_text-hide.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/mixins/_text-truncate.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/mixins/_transition.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/mixins/_visibility.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/utilities/_align.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/utilities/_background.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/utilities/_borders.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/utilities/_clearfix.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/utilities/_display.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/utilities/_embed.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/utilities/_flex.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/utilities/_float.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/utilities/_interactions.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/utilities/_overflow.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/utilities/_position.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/utilities/_screenreaders.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/utilities/_shadows.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/utilities/_sizing.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/utilities/_spacing.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/utilities/_stretched-link.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/utilities/_text.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/utilities/_visibility.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/vendor/_rfs.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/_alert.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/_badge.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/_breadcrumb.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/_button-group.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/_buttons.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/_card.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/_carousel.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/_close.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/_code.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/_custom-forms.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/_dropdown.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/_forms.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/_functions.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/_grid.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/_images.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/_input-group.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/_jumbotron.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/_list-group.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/_media.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/_mixins.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/_modal.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/_nav.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/_navbar.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/_pagination.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/_popover.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/_print.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/_progress.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/_reboot.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/_root.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/_spinners.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/_tables.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/_toasts.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/_tooltip.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/_transitions.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/_type.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/_utilities.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/scss/_variables.scss">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/chart.js/Chart.bundle.js">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/chart.js/Chart.bundle.min.js">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/chart.js/Chart.js">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/chart.js/Chart.min.js">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/datatables/dataTables.bootstrap4.css">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/datatables/dataTables.bootstrap4.js">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/datatables/dataTables.bootstrap4.min.css">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/datatables/dataTables.bootstrap4.min.js">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/datatables/extensiones/css/buttons.dataTables.min.css">
+      <publishTime>08/13/2022 22:19:10</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/datatables/extensiones/css/responsive.dataTables.min.css">
+      <publishTime>08/13/2022 22:18:14</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/datatables/extensiones/js/buttons.print.min.js">
+      <publishTime>08/13/2022 22:22:12</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/datatables/jquery.dataTables.min.js">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/fontawesome-free/attribution.js">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/fontawesome-free/css/brands.min.css">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/fontawesome-free/css/regular.min.css">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/fontawesome-free/LICENSE.txt">
+      <publishTime>04/28/2021 20:21:06</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
